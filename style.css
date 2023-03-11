@@ -1,0 +1,96 @@
+.wrapper {
+    background-image: url(./assets/images/fon.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 80px;
+}
+
+.logo {
+    flex-basis: 40px;
+}
+
+.main_menu {
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 270px;
+    padding-left: 522px;
+}
+
+.click {
+    color: white;
+    font-family: "Roboto", Arial sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.click:hover {
+    text-decoration: underline;
+}
+
+.click:active {
+    color: blueviolet ;
+}
+
+.click:nth-of-type(2n){
+    color: blueviolet;
+}
+
+.user_account {
+    background: linear-gradient(
+    90deg,
+    rgb(200, 154, 252),
+    rgb(124, 106, 250) 100%
+    );
+    border: 1px solid #7c6afa;
+    border-radius: 50px;
+    color: white;
+    flex-basis: 183px;
+}
+
+.global {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 170px;
+    padding-left: 312px;
+}
+
+.kurs {
+    color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 64px;
+}
+
+.bottom {
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 43px;
+    padding-left: 342px;
+    padding-right: 312px;
+}
+
+.buy {
+    background: linear-gradient(90deg, rgb(223, 89, 80), rgb(69, 16, 70));
+    border: 1px solid #DF5950;
+    border-radius: 50px;
+    color: white;
+    flex-basis: 183px;
+}
+
+.statistics,
+.money {
+    color: rgb(113, 111, 111);
+    flex-basis: 25%;
+    font-weight: 700;
+    font-size: 16px;
+}
